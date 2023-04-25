@@ -1,0 +1,60 @@
+{
+    "Runner": {
+        "checkpoints": [
+            {
+                "steps": 499967,
+                "file_path": "results\\chase_goal_16\\Runner\\Runner-499967.onnx",
+                "reward": -136.53857930501303,
+                "creation_time": 1682318519.0144672,
+                "auxillary_file_paths": [
+                    "results\\chase_goal_16\\Runner\\Runner-499967.pt"
+                ]
+            },
+            {
+                "steps": 891892,
+                "file_path": "results\\chase_goal_16\\Runner\\Runner-891892.onnx",
+                "reward": -136.48783647097073,
+                "creation_time": 1682319956.4752316,
+                "auxillary_file_paths": [
+                    "results\\chase_goal_16\\Runner\\Runner-891892.pt"
+                ]
+            }
+        ]
+    },
+    "Tagger": {
+        "checkpoints": [
+            {
+                "steps": 499967,
+                "file_path": "results\\chase_goal_16\\Tagger\\Tagger-499967.onnx",
+                "reward": 124.87191111246744,
+                "creation_time": 1682318519.0995066,
+                "auxillary_file_paths": [
+                    "results\\chase_goal_16\\Tagger\\Tagger-499967.pt"
+                ]
+            },
+            {
+                "steps": 891892,
+                "file_path": "results\\chase_goal_16\\Tagger\\Tagger-891892.onnx",
+                "reward": 125.34552829082196,
+                "creation_time": 1682319956.3332393,
+                "auxillary_file_paths": [
+                    "results\\chase_goal_16\\Tagger\\Tagger-891892.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 891892,
+            "file_path": "results\\chase_goal_16\\Tagger.onnx",
+            "reward": 125.34552829082196,
+            "creation_time": 1682319956.3332393,
+            "auxillary_file_paths": [
+                "results\\chase_goal_16\\Tagger\\Tagger-891892.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.13.1+cu117"
+    }
+}

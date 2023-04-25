@@ -1,0 +1,87 @@
+{
+    "Tagger": {
+        "checkpoints": [
+            {
+                "steps": 499944,
+                "file_path": "results\\chase_goal_08\\Tagger\\Tagger-499944.onnx",
+                "reward": 109.86094665527344,
+                "creation_time": 1682208212.6312559,
+                "auxillary_file_paths": [
+                    "results\\chase_goal_08\\Tagger\\Tagger-499944.pt"
+                ]
+            },
+            {
+                "steps": 999901,
+                "file_path": "results\\chase_goal_08\\Tagger\\Tagger-999901.onnx",
+                "reward": -48.650004386901855,
+                "creation_time": 1682210621.6693642,
+                "auxillary_file_paths": [
+                    "results\\chase_goal_08\\Tagger\\Tagger-999901.pt"
+                ]
+            },
+            {
+                "steps": 1000029,
+                "file_path": "results\\chase_goal_08\\Tagger\\Tagger-1000029.onnx",
+                "reward": -48.650004386901855,
+                "creation_time": 1682210621.8493595,
+                "auxillary_file_paths": [
+                    "results\\chase_goal_08\\Tagger\\Tagger-1000029.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000029,
+            "file_path": "results\\chase_goal_08\\Tagger.onnx",
+            "reward": -48.650004386901855,
+            "creation_time": 1682210621.8493595,
+            "auxillary_file_paths": [
+                "results\\chase_goal_08\\Tagger\\Tagger-1000029.pt"
+            ]
+        }
+    },
+    "Runner": {
+        "checkpoints": [
+            {
+                "steps": 499944,
+                "file_path": "results\\chase_goal_08\\Runner\\Runner-499944.onnx",
+                "reward": -110.66094970703125,
+                "creation_time": 1682208212.7542572,
+                "auxillary_file_paths": [
+                    "results\\chase_goal_08\\Runner\\Runner-499944.pt"
+                ]
+            },
+            {
+                "steps": 999901,
+                "file_path": "results\\chase_goal_08\\Runner\\Runner-999901.onnx",
+                "reward": 0.0,
+                "creation_time": 1682210621.565359,
+                "auxillary_file_paths": [
+                    "results\\chase_goal_08\\Runner\\Runner-999901.pt"
+                ]
+            },
+            {
+                "steps": 1000029,
+                "file_path": "results\\chase_goal_08\\Runner\\Runner-1000029.onnx",
+                "reward": 0.0,
+                "creation_time": 1682210621.9563596,
+                "auxillary_file_paths": [
+                    "results\\chase_goal_08\\Runner\\Runner-1000029.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000029,
+            "file_path": "results\\chase_goal_08\\Runner.onnx",
+            "reward": 0.0,
+            "creation_time": 1682210621.9563596,
+            "auxillary_file_paths": [
+                "results\\chase_goal_08\\Runner\\Runner-1000029.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.13.1+cu117"
+    }
+}
